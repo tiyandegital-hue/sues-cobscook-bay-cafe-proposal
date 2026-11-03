@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Sue's Cobscook Bay Cafe</title>
+<meta name="description" content="Contact Sue's Cobscook Bay Cafe — 2730 US-1, Edmunds Township ME. Call (207) 726-4404 for the fastest answer.">
+<meta property="og:title" content="Contact — Sue's Cobscook Bay Cafe">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Sue's Cobscook Bay Cafe — home">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span class="brand-name"><span data-site="name">Sue's Cobscook Bay Cafe</span><small data-site="tagline">Breakfast &amp; lunch on US Route 1</small></span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="menu.html">Menu</a>
+      <a href="visit.html">Visit</a>
+      <a href="about.html">About</a>
+      <a href="catering.html">Catering</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn btn-sm header-cta" data-site="phoneHref" href="tel:+12077264404">Call&nbsp;<span data-site="phone">(207) 726-4404</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span class="bars" aria-hidden="true"><span class="mid"></span></span></button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap page-head">
+    <p class="eyebrow" data-reveal>Get in touch</p>
+    <h1 data-reveal="1">Say hello.</h1>
+    <p class="lede" data-reveal="2">Fastest answer is always the phone. The form works too — for catering dates, big groups, or anything that can wait till morning.</p>
+  </div>
+
+  <div class="wrap">
+    <div class="contact-grid">
+      <div data-reveal>
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+          <div class="field">
+            <label for="cf-name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="cf-name" name="name" autocomplete="name" required aria-describedby="cf-name-err">
+            <p class="err" id="cf-name-err">Please tell us your name.</p>
+          </div>
+          <div class="field">
+            <label for="cf-contact">Phone or email <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="cf-contact" name="contact" autocomplete="tel" required aria-describedby="cf-contact-err">
+            <p class="err" id="cf-contact-err">We need a way to reach you — a phone number or email.</p>
+          </div>
+          <div class="field">
+            <label for="cf-date">Date, if it matters</label>
+            <input type="date" id="cf-date" name="date">
+          </div>
+          <div class="field">
+            <label for="cf-msg">What's on your mind <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="cf-msg" name="message" required aria-describedby="cf-msg-err"></textarea>
+            <p class="err" id="cf-msg-err">A line or two helps us answer properly.</p>
+          </div>
+          <div class="consent">
+            <input type="checkbox" id="cf-consent" name="consent" required>
+            <label for="cf-consent">It's okay to contact me back about this message. We'll only use your details to reply — nothing else. See the <a href="privacy.html">privacy page</a>.</label>
+          </div>
+          <button type="submit" class="btn">Send the message</button>
+          <p class="form-note">Demo note: this concept site has no backend yet, so the form shows a confirmation without sending. In the real build, messages go straight to the cafe.</p>
+        </form>
+        <div class="form-done" id="form-done" tabindex="-1" role="status" aria-label="Message received">
+          <p class="eyebrow">Got it</p>
+          <h2>Thanks, <strong>friend</strong>.</h2>
+          <p>This is the demo confirmation — nothing was actually sent. In the live site, your message lands with the cafe and they reply by phone or email.</p>
+          <p class="small muted">In a hurry? <a data-site="phoneHref" href="tel:+12077264404">Call <span data-site="phone">(207) 726-4404</span></a> — that's always fastest.</p>
+        </div>
+      </div>
+
+      <div data-reveal="1">
+        <div class="info-card">
+          <p class="eyebrow">Call</p>
+          <h3><a class="phone-big" data-site="phoneHref" href="tel:+12077264404"><span data-site="phone">(207) 726-4404</span></a></h3>
+          <p class="small muted">During sample hours is best: Mon–Fri 6:30a–2:00p, Sat 7:00a–2:00p, Sun 7:00a–1:00p.</p>
+        </div>
+        <div class="info-card">
+          <p class="eyebrow">Visit</p>
+          <h3><span data-site="address">2730 US-1, Edmunds Township, ME 04628</span></h3>
+          <a class="map-link" data-site="mapsUrl" href="https://www.google.com/maps/search/?api=1&amp;query=Sue%27s+Cobscook+Bay+Cafe+2730+US-1+Edmunds+Township+ME+04628"><span aria-hidden="true">⌖</span> Open in Google Maps</a>
+        </div>
+        <div class="info-card">
+          <p class="eyebrow">Follow</p>
+          <h3>Facebook</h3>
+          <p class="small muted">Daily specials and off-season hours, when they're posted.</p>
+          <a class="btn btn-ghost btn-sm" data-site="facebook" href="https://www.facebook.com/105497534768402">Visit the Facebook page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4><span data-site="name">Sue's Cobscook Bay Cafe</span></h4>
+        <p class="small muted"><span data-site="address">2730 US-1, Edmunds Township, ME 04628</span><br><a data-site="phoneHref" href="tel:+12077264404"><span data-site="phone">(207) 726-4404</span></a><br><span data-site="tagline">Breakfast &amp; lunch on US Route 1</span></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="catering.html">Catering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The fine print</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a data-site="facebook" href="https://www.facebook.com/105497534768402">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>Concept demo crafted by Tiyan Digital · Photos are AI-generated illustrations · Menu items, prices &amp; hours shown are samples.</p>
+      <p>See our real work: <a href="https://bluedhaka.com">bluedhaka.com</a> · © <span data-year>2026</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
